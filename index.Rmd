@@ -1,0 +1,51 @@
+---
+title       : Convert PSI to BAR
+subtitle    : Pressure metrics made easy!
+author      : Boyke
+job         : The pressure doctor
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---
+
+## Content
+
+1. Pressure
+2. App!
+3. Conclusion
+
+--- .class #id 
+
+## Pressure
+
+
+### "the force applied perpendicular to the surface of an object per unit area over which that force is distributed"
+
++ Metrics
+  - PSI (Pound per square inch)
+  - BAR (Bar)
+  - PA  (Pascal)
+  - ATM (Standard atmposphere)
+
+--- .class #id 
+
+## App!
+
+The app converts PSI values to BAR values. The code below converts 100 PSI to BAR:
+
+``` {r}
+100 * 0.06894
+```
+
+--- .class #id 
+
+## Conclusion
+
+- easy!
+- fast!
+- reliable!
+
+--- .class #id 
